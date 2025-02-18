@@ -1,4 +1,4 @@
-echo '. ~/profile.ps1' > ~/Documents/PowerShell/profile.ps1
+echo '. ~/.profile.ps1' > ~/Documents/PowerShell/profile.ps1
 
 # prevent git recursion issues
 echo ".dotfileswin" > $HOME/.gitignore
