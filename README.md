@@ -22,4 +22,5 @@ Manage dotfiles with standard git commands using the `dfgit` alias
 To completely uninstall, do:
 
     cd $HOME
+    Remove-Item -Path ".\.dotfileswin\" -Recurse -Force
     rm -rf .dotfileswin REAME.md .gitignore df-init.ps1 .profile.ps1 .vimrc
