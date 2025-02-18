@@ -1,6 +1,12 @@
 Set-Alias ll Get-ChildItem
-Set-Alias gs "git status"
-Set-Alias gd "git diff"
+
+function gd {
+    git diff
+}
+
+function gs {
+    git status
+}
 
 function gla {
     git log --oneline --graph --all
@@ -13,4 +19,8 @@ function gfs {
 
 function dfgit {
     git --git-dir=$HOME/.dotfileswin/ --work-tree=$HOME @args
+}
+
+function gba {
+    git branch --all
 }
