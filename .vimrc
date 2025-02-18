@@ -10,6 +10,8 @@ set formatoptions=1
 set lbr             " don't split words in soft linebreak
 set ruler
 
+set nobackup " powershell bs
+
 " searching
 set ignorecase
 set hlsearch
