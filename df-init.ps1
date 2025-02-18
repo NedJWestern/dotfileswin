@@ -1,7 +1,7 @@
 echo '. ~/profile.ps1' > ~/Documents/PowerShell/profile.ps1
 
 # prevent git recursion issues
-echo ".dotfiles" > $HOME/.gitignore
+echo ".dotfileswin" > $HOME/.gitignore
 
 # clone and setup git repo
 git clone --bare https://github.com/NedJWestern/dotfileswin.git $HOME/.dotfileswin
