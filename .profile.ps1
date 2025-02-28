@@ -23,3 +23,7 @@ function dfgit {
 function gba {
     git branch --all
 }
+
+function piup {
+    python -m pip install --upgrade pip
+}
