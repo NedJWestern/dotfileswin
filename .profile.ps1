@@ -1,11 +1,11 @@
 Set-Alias ll Get-ChildItem
 
 function gd {
-    git diff
+    git diff @args
 }
 
 function gs {
-    git status
+    git status @args
 }
 
 function gla {
@@ -13,8 +13,7 @@ function gla {
 }
 
 function gfs {
-    git fetch --prune
-    git status
+    git fetch --prune && git status
 }
 
 function dfgit {
