@@ -27,3 +27,7 @@ function gba {
 function piup {
     python -m pip install --upgrade pip
 }
+
+function nwgrep {
+    grep --exclude-dir=".git" --exclude-dir=".venv" --exclude-dir=".dvc" @args
+}
