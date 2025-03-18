@@ -29,5 +29,5 @@ function piup {
 }
 
 function nwgrep {
-    grep --exclude-dir=".git" --exclude-dir=".venv" --exclude-dir=".dvc" @args
+    grep --color --exclude-dir=".git" --exclude-dir=".venv" --exclude-dir=".dvc" @args
 }
